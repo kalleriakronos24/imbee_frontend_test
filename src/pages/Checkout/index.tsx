@@ -1,3 +1,5 @@
+import { AxiosSuccessResponse } from "@/@types/axios.types";
+import { Book } from "@/@types/book.types";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import TrashIcon from "@/icons/trash";

@@ -1,3 +1,5 @@
+import { AxiosSuccessResponse } from "@/@types/axios.types";
+import { Book, BookResponse } from "@/@types/book.types";
 import axios from "axios";
 import { useEffect, useState } from "react";
 
@@ -9,11 +11,12 @@ const useRetrieveBook = () => {
   async function setBookSteps(url?: string) {
     const step = steps + 20;
     try {
-      let urlPath = `book/list?=step${step}`;
+      let urlPath = `book/list?step=${step}`;
       if (url) {
         urlPath = url;
         setIsFetchEnd(true);
       }
+      console.log('>> ', urlPath);
       const data = await axios.get(
         `${import.meta.env.VITE_BACKEND_URL}/${urlPath}`
       );

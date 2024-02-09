@@ -1,4 +1,4 @@
-type BookResponse = {
+export type BookResponse = {
   data: {
     id: string;
     title: string;
@@ -18,7 +18,7 @@ type BookResponse = {
   };
 };
 
-type Book = {
+export type Book = {
   id: string;
   title: string;
   writer: string;

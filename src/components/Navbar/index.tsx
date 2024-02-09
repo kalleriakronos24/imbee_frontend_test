@@ -1,3 +1,4 @@
+import { Book } from "@/@types/book.types";
 import CartIcon from "@/icons/cart";
 import React from "react";
 import { useNavigate } from "react-router-dom";

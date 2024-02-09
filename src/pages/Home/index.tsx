@@ -1,3 +1,4 @@
+import { Book } from "@/@types/book.types";
 import BookSidebarRecommendations from "@/components/BookSidebarRecommendation";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
