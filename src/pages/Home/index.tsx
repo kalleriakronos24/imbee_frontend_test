@@ -1,11 +1,11 @@
-import { Book } from "@/@types/book.types";
-import BookSidebarRecommendations from "@/components/BookSidebarRecommendation";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
-import useRetrieveBook from "@/hooks/retrieve-books.hook";
-import CartIcon from "@/icons/cart";
-import TrashIcon from "@/icons/trash";
-import React, { useState } from "react";
+import { Book } from "../../@types/book.types";
+import BookSidebarRecommendations from "../../components/BookSidebarRecommendation";
+import Footer from "../../components/Footer";
+import Navbar from "../../components/Navbar";
+import useRetrieveBook from "../../hooks/retrieve-books.hook";
+import CartIcon from "../../icons/cart";
+import TrashIcon from "../../icons/trash";
+import { useState } from "react";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 const Home = () => {

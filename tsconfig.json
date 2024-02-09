@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "jsx": "react",
-    "rootDir": ".",
+    "baseUrl": "./src",
+    "jsx": "react-jsx",
+    // "rootDir": ".",
     "paths": {
       "@/*": ["./src/*"],
       "@@/*": ["./*"],

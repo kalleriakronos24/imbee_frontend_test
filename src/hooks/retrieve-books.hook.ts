@@ -1,5 +1,5 @@
-import { AxiosSuccessResponse } from "@/@types/axios.types";
-import { Book, BookResponse } from "@/@types/book.types";
+import { AxiosSuccessResponse } from "../@types/axios.types";
+import { Book, BookResponse } from "../@types/book.types";
 import axios from "axios";
 import { useEffect, useState } from "react";
 

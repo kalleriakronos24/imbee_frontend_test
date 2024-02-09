@@ -1,5 +1,3 @@
-import React from "react";
-
 const BookSidebarRecommendations = () => {
   return (
     <div className="h-full w-[20%] border-r-4 pr-8">

@@ -17,6 +17,8 @@
   "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite --host",
+    "preview": "vite preview",
+    "build:production": "tsc && vite build",
     "build": "rimraf build/**/* && tsc && vite build && dts-bundle-generator --config ./dts-bundle-generator.config.ts && copyfiles ./package.json build",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
@@ -62,6 +64,7 @@
   },
   "dependencies": {
     "@mui/material": "^5.15.9",
+    "@vitejs/plugin-react": "^4.2.1",
     "axios": "^1.6.7",
     "react": "^18.2.0",
     "react-error-boundary": "^4.0.12",

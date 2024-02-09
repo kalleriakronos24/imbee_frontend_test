@@ -1,5 +1,4 @@
-import Footer from "@/components/Footer";
-import React from "react";
+import Footer from "../../components/Footer";
 import { useNavigate } from "react-router-dom";
 
 const RegisterPage = () => {
