@@ -1,2 +1,2 @@
-export * from './cart';
-export * from './trash';
+export * from "./cart";
+export * from "./trash";

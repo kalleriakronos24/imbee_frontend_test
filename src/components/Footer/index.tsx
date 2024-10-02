@@ -4,7 +4,11 @@ const Footer = () => {
       <div className="flex flex-col min-[1024px]:flex-row min-[1024px]:justify-between">
         <div className="flex flex-col">
           <span className="mt-7 text-[0.95rem] font-extralight min-[1024px]:w-[370px]">
-            The Imbee.com is a network of question-and-answer websites covering various topics, where users can ask and answer questions. It's best known for Stack Overflow, focused on programming. Users earn reputation points and badges for their contributions, fostering a community-driven knowledge base
+            The Imbee.com is a network of question-and-answer websites covering
+            various topics, where users can ask and answer questions. It's best
+            known for Stack Overflow, focused on programming. Users earn
+            reputation points and badges for their contributions, fostering a
+            community-driven knowledge base
           </span>
           <span className="pt-5 text-[0.95rem] font-extralight">
             Imbee No: XXXXXXXXX

@@ -1,8 +1,8 @@
 type Props = {
   color: string;
   width?: string;
-  height?: string
-}
+  height?: string;
+};
 const CartIcon = ({ color, height = "28px", width = "28px" }: Props) => {
   return (
     <svg

@@ -7,7 +7,7 @@ const RegisterPage = () => {
     <>
       <div className="flex flex-col h-full w-full">
         <div className="flex flex-col px-8 py-6 items-center">
-          <button onClick={() => navigate('/')}>
+          <button onClick={() => navigate("/")}>
             <img src="./assets/logos/main-logo.png" width={90} height={90} />
           </button>
           <div className="mt-8 p-6 border-2 rounded-xl w-full min-[1024px]:w-[400px] h-[450px]">

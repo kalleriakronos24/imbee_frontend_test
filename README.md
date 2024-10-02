@@ -1,15 +1,18 @@
 IMBEE FRONTEND (off site) test
 
 Tools Required:
+
 - React
 - Typescript
 - Vite
 
 How to run:
+
 - npm install (if error, npm install legacy-peer-deps)
 - npm run dev
 
 Drawbacks / Issues:
+
 - My network now got blacklisted for time being due to "too many request" to the API, which i am now short of time to simulate the data.
 - When user load for the first time, it doesn't highlight the top 1 trending topic
 - User search is applied after pressing the "Apply" button
@@ -19,8 +22,8 @@ Drawbacks / Issues:
 - No Animations
 - No Spinner or Loader, it's just text based.
 
-
 Key features:
+
 - Infinite scroll questions with a limit 10 or 10 per new loads
 - Question or Topic search by pressing "Apply" button next to the search
 - Shows top 10 trending topics / tags
