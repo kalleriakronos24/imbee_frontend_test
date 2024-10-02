@@ -1,12 +1,6 @@
-import { Book } from "../../@types/book.types";
-import CartIcon from "../../icons/cart";
 import { useNavigate } from "react-router-dom";
 
-type Props = {
-  cartCount: number;
-  cart: Book[];
-};
-const Navbar = ({ cartCount = 0, cart }: Props) => {
+const Navbar = () => {
   const navigate = useNavigate();
 
   const isLoggedIn = window.localStorage.getItem("token");
@@ -23,19 +17,6 @@ const Navbar = ({ cartCount = 0, cart }: Props) => {
               <span className="text-white font-bold">
                 {isLoggedIn ? "Hello there." : "Sign In"}
               </span>
-            </button>
-            <button
-              onClick={() =>
-                navigate("/checkout", {
-                  state: {
-                    cart,
-                  },
-                })
-              }
-              className="flex flex-row"
-            >
-              <CartIcon color="#FFFFFF" />
-              <span className="text-white pl-2">{cartCount}</span>
             </button>
           </div>
         </div>

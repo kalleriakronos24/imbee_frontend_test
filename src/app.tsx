@@ -3,7 +3,6 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Home from './pages/Home';
 import LoginPage from './pages/Login';
 import RegisterPage from './pages/Register';
-import CheckoutPage from './pages/Checkout';
 
 const App = () => {
   const { pathname } = useLocation();
@@ -16,10 +15,9 @@ const App = () => {
     <Routes>
       {/* Public */}
       {/* <Route path="*" element={<Error />} /> */}
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<Home />} />
       <Route path='/login' element={<LoginPage />} />
       <Route path='/register' element={<RegisterPage />} />
-      <Route path='/checkout' element={<CheckoutPage />} />
     </Routes>
   );
 };

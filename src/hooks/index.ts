@@ -1,1 +1,1 @@
-export * from "./retrieve-books.hook";
+export * from "./retrieve-topic.hook";

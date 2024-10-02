@@ -1,3 +1,3 @@
 export * from './Navbar';
-export * from './BookSidebarRecommendation';
+export * from './NetworkSites';
 export * from './Footer';
